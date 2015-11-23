@@ -28,8 +28,9 @@ for (var flag in argv) {
   var dashes = flag.length === 1 ? '-' : '--';
   if (!(argv[flag] instanceof Array)) argv[flag] = [argv[flag]];
   argv[flag].forEach(function(index) {
-    switches.push(dashes + flag + ' ' + index);
+    var value = index === true ? '' : " '" + index + "'";
+    switches.push(dashes + flag + value);
   });
 }
 
-console.log('curl ' + url + ' ' + switches.join(' '));
+console.log('\ncurl ' + url + ' ' + switches.join(' '));

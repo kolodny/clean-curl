@@ -1,6 +1,6 @@
 {
   "name": "clean-curl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Clean up curl calls",
   "main": "index.js",
   "bin": "./index.js",
