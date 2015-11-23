@@ -1,6 +1,6 @@
 {
   "name": "clean-curl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Clean up curl calls",
   "main": "index.js",
   "bin": "./index.js",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/kolodny/clean-curl/issues"
   },
-  "homepage": "https://github.com/kolodny/clean-curl#readme"
+  "homepage": "https://github.com/kolodny/clean-curl#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
 }
