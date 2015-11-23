@@ -1,0 +1,23 @@
+{
+  "name": "clean-curl",
+  "version": "1.0.0",
+  "description": "Clean up curl calls",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kolodny/clean-curl.git"
+  },
+  "keywords": [
+    "curl"
+  ],
+  "author": "Moshe Kolodny",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kolodny/clean-curl/issues"
+  },
+  "homepage": "https://github.com/kolodny/clean-curl#readme"
+}
