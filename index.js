@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var argv = require('minimist')(process.argv.slice(2));
 var _ = argv._;
 var url = _[0] === 'curl' ? _[1] : _[0];
